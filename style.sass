@@ -1,0 +1,37 @@
+*
+    box-sizing: border-box
+body
+    font-family: sans-serif
+h1, h2
+    font-size: 18px
+ul
+    padding: 0
+    list-style: none
+li
+    margin-bottom: 15px
+img
+    max-width: 100%
+.container
+    max-width: 680px
+    margin: auto
+.wrapper
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+.part
+    max-width: 320px
+    margin: 0 5px
+.products li:before
+    content: '- '
+.request
+    display: flex
+    justify-content: center
+    text-decoration: none
+    background-color: #c00
+    color: #fff
+    padding: 15px 30px
+    margin: 10px 0
+
+@media (max-width: 700px)
+    .container
+        max-width: 320px
